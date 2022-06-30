@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+
+    <title>My test page</title>
+  </head>
+  <body>
+    <h1>第一個網站</h1>
+    <h3>(這是一個測試網站，會有個水獺跟你說嗨><  下面的圖點一下可以換另一張!)</h3>
+    <img src="images/my-image.png" alt="這是一隻水獺">
+
+    <p> 今天是2022/6/23，我寫出了第一個段落</p>
+    <p> 現在我要來加一個清單，這是我今天目前做完的事:</p>
+    
+
+    <ul>
+      <li>1. 吃完了早餐-雞胸肉、堅果，偷吃室友的月餅</li>
+      <li>2. 騎車出來，到了一間沒開冷氣的路易莎 </li>
+      <li>3. 現在正在做這個網頁 </li>
+      <li>4. 哇 我現在才發現他可以自動加上點點耶，但有別的樣式嗎? </li>
+    </ul>
+
+    <!-- 按鈕實作-->
+    <p> 來實作一下按鈕 </p>
+    <button onclick="btn_event()"> CLICK!! </button>
+    <button onclick="setUserName()">Change user</button>
+
+    <!-- 原段落-->
+    <p id="name" 
+       style="font-size:25px; 
+              color:green;">
+              點上面這個按鈕會成功嗎?
+    </p> 
+
+    <p> 影片測試: </p>
+    <video src="test.mp4" controls></video>
+
+    <!-- 設計按鈕函式-->
+    <p> ↓↓↓↓↓ </p>
+    <a href="https://www.youtube.com/watch?v=wyuZwXo5RnA&t=25s&ab_channel=%E9%A2%A8%E5%82%B3%E5%AA%92TheStormMedia>">點下去，看可愛的獺獺影片<3 </a>
+
+    <script src="scripts/main.js"></script>
+
+    </body>
+</html>
